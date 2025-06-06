@@ -9,19 +9,19 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 text-center">
         <div className="mb-8 flex justify-center">
             <Image 
-              src="https://placehold.co/150x150.png" 
+              src="/images/photo.jpeg" 
               alt="Profile Picture" 
-              width={150} 
-              height={150} 
+              width={200} 
+              height={180} 
               className="rounded-full shadow-lg border-4 border-primary"
               data-ai-hint="profile person" 
             />
         </div>
         <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-4">
-          Your Name
+          Rohit Pareek
         </h1>
         <p className="text-xl md:text-2xl text-foreground mb-8">
-          MERN Stack Developer Intern
+          MERN Stack Developer 
         </p>
         <p className="max-w-2xl mx-auto text-muted-foreground mb-10">
           Passionate about building modern, responsive web applications with cutting-edge technologies. Currently honing my skills in the MERN stack and eager to contribute to innovative projects.

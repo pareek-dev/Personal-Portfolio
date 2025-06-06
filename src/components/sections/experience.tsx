@@ -23,6 +23,18 @@ const experiences: ExperienceItem[] = [
     technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Git', 'REST APIs']
   },
   // Add more experiences if any
+   {
+    role: 'MERN Stack Developer Intern',
+    company: 'Tech Solutions Inc.',
+    duration: 'June 2023 - Present',
+    description: [
+      'Developed and maintained web applications using MongoDB, Express.js, React, and Node.js.',
+      'Collaborated with senior developers on various project features and bug fixes.',
+      'Participated in agile development processes, including daily stand-ups and sprint planning.',
+      'Gained hands-on experience in API development and integration.',
+    ],
+    technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Git', 'REST APIs']
+  }
 ];
 
 export default function ExperienceSection() {

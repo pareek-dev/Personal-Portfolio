@@ -11,7 +11,7 @@ import { cn } from '@/lib/utils';
 const navItems = [
   { href: '/', label: 'Home', icon: Home },
   { href: '/projects', label: 'Projects', icon: Briefcase },
-  { href: '/resume-optimizer', label: 'Resume AI', icon: FileText },
+  // { href: '/resume-optimizer', label: 'Resume AI', icon: FileText },
   { href: '/blog', label: 'Blog', icon: Rss },
   { href: '/contact', label: 'Contact', icon: Mail },
 ];
@@ -44,7 +44,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2 text-xl font-headline font-bold text-primary">
           <CodeXml className="h-7 w-7" />
-          <span>MERN Portfolio</span>
+          <span>Rohit Dev</span>
         </Link>
 
         <nav className="hidden items-center space-x-2 md:flex">
